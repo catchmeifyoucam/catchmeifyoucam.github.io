@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end css reset*/
+
+/*my css*/
+body {
+	background: linear-gradient(yellow, orange, #ff3300);
+}
+
+#wrapper {
+	width: 860px;
+	margin: 60px auto;
+}
+
+#headline {
+	height: 25px;
+	width: 100%;
+}
+
+
+
+
+#title {
+	font-family: "Braggadocio";
+	font-size: 60px;
+	text-align: center;
+	top: 5px;
+}
+
+#subtitle {
+	font-size: 18pt;
+	font-weight: bold;
+	font-family: "Arial Rounded MT Bold";
+	text-align: center;
+}
+
+#img {
+
+	padding: 20px;
+	text-align: center;
+	background: #000000;
+	width: 510px;
+	height: 510px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#navigation {
+
+	font-family: "Arial Rounded MT Bold";
+	font-size: 20pt;
+	margin: 20px;	
+
+}
+
+#disco{
+
+
+	font-size: 20pt;
+	font-weight: bold;
+	font-family: "Arial Rounded MT Bold";
+	margin: 20px;
+
+	height: 105px;
+	width: 100%;
+	/*background: orange; */
+	overflow: auto;
+}
+
+p {
+
+	font-family: "Helvetica";
+	font-size: 16pt;
+
+	
+
+}
+
+/*menu*/
+
+
+
+#menu ul li {
+
+	line-height: 20px;
+	color: black;
+}
+
+#menu ul li a:link {
+
+	color: black;
+}
+
+#menu ul li a:visited {
+	color: orange;
+}
+
+#menu ul li a:hover {
+	text-decoration: underline;
+}
+
+#menu ul li a:active {
+	font-weight: bold;
+}
+
+#menu {
+
+	font-family: "Arial Rounded MT Bold";
+	font-size: 20pt;
+	margin: 20px;
+}
